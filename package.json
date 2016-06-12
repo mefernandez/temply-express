@@ -29,6 +29,7 @@
     "temply-core": "0.0.1-alpha.4"
   },
   "devDependencies": {
-    "chai": "^3.5.0"
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
   }
 }
