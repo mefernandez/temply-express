@@ -1,2 +1,2 @@
 # temply-express
-Expressjs render engine for Temply
+Temply's HTML template engine for Express.js
