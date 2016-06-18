@@ -29,6 +29,7 @@ router.get('/', function(req, res, next) {
 
 That will look up `templates/index.html` and call all plugins referenced in it.
 In this example, plugins will be loaded from `plugins/data` and `plugins/render`.
+The resulting HTML will be written to the HTTP response.
 
 [npm-image]: https://img.shields.io/npm/v/temply-express.svg
 [npm-url]: https://npmjs.org/package/temply-express
