@@ -21,7 +21,14 @@ app.engine('html', templyEngine);
 
 Now use it in a `route`:
 
+```js
+router.get('/', function(req, res, next) {
+  res.render('templates/index.html');
+});
+```
 
+That will look up `templates/index.html` and call all plugins referenced in it.
+In this example, plugins will be loaded from `plugins/data` and `plugins/render`.
 
 [npm-image]: https://img.shields.io/npm/v/temply-express.svg
 [npm-url]: https://npmjs.org/package/temply-express
