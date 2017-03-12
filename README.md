@@ -17,6 +17,11 @@ var pluginsRepository = [path.join(__dirname, 'plugins/data'), path.join(__dirna
 
 var templyEngine = templyEngineFactory(pluginsRepository);
 app.engine('html', templyEngine);
+
+// view engine setup
+app.set('views', path.join(__dirname, 'templates'));
+app.set('view engine', 'html');
+
 ```
 
 Now use it in a `route`:
