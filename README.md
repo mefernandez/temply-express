@@ -28,7 +28,7 @@ Now use it in a `route`:
 
 ```js
 router.get('/', function(req, res, next) {
-  res.render('templates/index.html');
+  res.render('index.html');
 });
 ```
 
